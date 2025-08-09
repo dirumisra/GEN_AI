@@ -1,0 +1,32 @@
+# Conda/venv environments
+env/
+venv/
+genv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# VS Code settings
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Ignore large data or model folders (if needed)
+data/
+models/
+
+# Ignore envs that might accidentally get added
+*.env
+.env/
